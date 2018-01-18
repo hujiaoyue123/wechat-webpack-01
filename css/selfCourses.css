@@ -1,0 +1,84 @@
+.content {
+  background-color: #F2F2F2;
+}
+.content .top-menu {
+  height: 0.8rem;
+  background-color: #FFF;
+  margin-bottom: 0.25rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.content .top-menu .top-item {
+  display: flex;
+  align-items: center;
+  height: 0.8rem;
+  color: #8c8c8c;
+}
+.content .top-menu .choosed {
+  color: #FA424E;
+  border-bottom: 0.1rem solid #FA424E;
+}
+.content .courses-list {
+  height: 11.75rem;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .courses-list .courses-item {
+  width: 100vw;
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.content .courses-list .courses-item .left {
+  height: 2rem;
+  width: 3rem;
+}
+.content .courses-list .courses-item .right {
+  height: 2rem;
+}
+.content .courses-list .courses-item .right .c-name {
+  font-size: 0.3rem;
+  line-height: 0.4rem;
+  font-weight: 600;
+}
+.content .courses-list .courses-item .right .c-teacher {
+  font-size: 0.23rem;
+  line-height: 0.4rem;
+  font-weight: 600;
+}
+.content .courses-list .courses-item .right .c-btn {
+  font-size: 0.1rem;
+  padding: 0.1rem;
+  margin-top: 0.23rem;
+  margin-bottom: 0.13rem;
+  border: 0;
+  background-color: #FA424E;
+  color: #FFF;
+}
+.content .courses-list .courses-item .right .c-bottom {
+  width: 2.8rem;
+}
+.content .courses-list .courses-item .right .c-bottom .people {
+  float: left;
+  color: #FA424E;
+}
+.content .courses-list .courses-item .right .c-bottom .people i {
+  font-size: 0.2rem;
+}
+.content .courses-list .courses-item .right .c-bottom .people .c-count {
+  font-size: 0.16rem;
+}
+.content .courses-list .courses-item .right .c-bottom .hx {
+  float: right;
+  font-size: 0.1rem;
+  color: #A7A7A7;
+}
+.content .courses-list .bar {
+  border-bottom: 1px solid #DCDCDC;
+  width: 85vw;
+  height: 1px;
+}

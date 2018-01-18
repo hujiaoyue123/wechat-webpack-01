@@ -1,0 +1,134 @@
+.content {
+  padding: 0 .12rem;
+}
+.content .title {
+  font-size: .32rem;
+  text-align: center;
+  font-weight: bold;
+  color: #333333;
+  padding: .3rem 0;
+}
+.content .time-w {
+  font-size: .3rem;
+  color: #555;
+  text-align: left;
+  text-indent: 3em;
+}
+.content .time-w .time {
+  text-align: center;
+  font-size: .26rem;
+  color: #666666;
+}
+.content .container {
+  font-size: .24rem;
+  color: #444444;
+  line-height: .5rem;
+  padding: .3rem 0;
+  text-indent: 2em;
+}
+.content .bigSize {
+  font-size: .34rem;
+  line-height: .63rem;
+}
+.font-size {
+  position: absolute;
+  top: 1.75rem;
+  right: .2rem;
+}
+.font-size span {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.4rem;
+  border-radius: 0.21rem;
+  text-align: center;
+  line-height: 0.4rem;
+  background: #aaa;
+}
+.back-top {
+  width: 0.5rem;
+  height: 0.6rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 0.7rem;
+}
+.load {
+  margin-top: 3.6rem;
+  text-align: center;
+}
+.wrap {
+  padding: 0.2rem;
+}
+.article-title {
+  color: #b92600;
+  text-align: center;
+  margin-left: -0.8rem;
+  line-height: 0.38rem;
+  margin-bottom: 0.12rem;
+}
+.article-date {
+  color: #8e8e8e;
+  text-align: center;
+  line-height: 0.45rem;
+  margin-bottom: 0.2rem;
+}
+.wrap p {
+  color: #8e8e8e;
+  text-align: justify;
+  line-height: 0.45rem;
+  text-indent: 2em;
+}
+.wrap div {
+  color: #8e8e8e;
+  text-align: justify;
+  line-height: 0.45rem;
+  text-indent: 2em;
+}
+.wrap .large {
+  padding: 0 0.10rem;
+  background: #ccc;
+  color: #0f0f0f;
+  margin: 0 0.10rem;
+  cursor: pointer;
+  border-radius: 0.4rem;
+}
+.wrap .reduce {
+  padding: 0 0.10rem;
+  background: #ccc;
+  color: #0f0f0f;
+  cursor: pointer;
+  border-radius: 0.4rem;
+}
+.wrap table {
+  width: 13.5rem;
+  margin-top: 0.4rem;
+  height: 4.7rem;
+  line-height: 1.1rem;
+}
+.wrap td {
+  color: #9c8e8e;
+  border: 1px #000 solid;
+  text-indent: 0rem;
+  text-align: center;
+}
+.wrap img {
+  width: 80%;
+}
+.statement {
+  margin-top: .2rem;
+}
+hr {
+  border: 0.01rem #8e8e8e dashed;
+  margin-top: 0.5rem;
+}
+.greena {
+  color: green;
+  font-weight: 600;
+}
+.reda {
+  color: red;
+  font-weight: 600;
+}
+.common {
+  color: #B92600;
+  font-weight: 600;
+}

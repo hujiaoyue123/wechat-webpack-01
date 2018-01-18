@@ -1,0 +1,50 @@
+@fgc: #8C8C8C;
+.content{
+  background-color: #F2F2F2;
+  .video-room{
+    height: 4rem;
+    background-color: #010101;
+  }
+  .menu{
+    @MH: 0.6rem;
+    height: @MH;
+    line-height: @MH;
+    background-color: #fff;
+    color: @fgc;
+    .title{
+      float: left;
+      width: 40%;
+      padding-left: 0.3rem;
+    }
+    .config{
+      text-align: right;
+      float: right;
+      width: 40%;
+      padding-right: 0.3rem;
+    }
+  }
+
+  .list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.1rem;
+    background-color: #fff;
+    .list-item{
+      width: 100vw;
+      height: 1rem;
+      //background-color: #ff98a7;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .time{
+        color: @fgc;
+      }
+    }
+    .bar{
+      border-bottom: 1px solid #DCDCDC;
+      width: 85vw;
+      height: 1px;
+    }
+  }
+}

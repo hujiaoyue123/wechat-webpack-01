@@ -1,0 +1,139 @@
+@import "common-mobile";
+body {
+  background-color: @body-background;
+}
+
+.swiper-container {
+  .banner-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    color: white;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+    /* 标准的语法（必须放在最后） */
+  }
+}
+
+.nav {
+  background: #fff;
+  .contain {
+    display: flex;
+    flex-direction: row;
+    padding: 0.22rem 0;
+    font-size: @font-2;
+    li {
+      justify-content: center;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .icon {
+        width: 0.5rem;
+        height: 0.5rem;
+        font-size: @font-2;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 0.2rem;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .text {
+
+      }
+    }
+  }
+}
+
+.entry {
+  background: white;
+  text-align: center;
+  img {
+    width: 6rem;
+    height: 1.2rem;
+    margin: 0.4rem 0 0.1rem;
+  }
+
+}
+
+.information {
+  height: 1rem;
+  margin: 0.2rem 0;
+  background: white;
+  font-size: @font-3;
+  .info-img, .info-btn {
+    width: 0.9rem;
+    height: 0.9rem;
+  }
+  .btn-right{
+    width:1.2rem;
+  }
+  .info-img {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    float: left;
+    margin-top: 0.09rem;
+    border-right: 1px solid #e5e5e5;
+  }
+  .info-btn {
+    img {
+      width: 0.24rem;
+      height: 0.9rem;
+    }
+    float: right;
+    border-left: 1px solid #e5e5e5;
+    line-height: 0.9rem;
+    text-align: center;
+    span {
+      line-height: 1rem;
+      height: 0.9rem;
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+  .info {
+    padding: .18rem;
+    margin-left: 0.9rem;
+    margin-right: 1.2rem;
+    p {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      line-height: .36rem;
+    }
+  }
+}
+
+.course-w {
+  background: white;
+  padding: 0 0.24rem;
+  padding-bottom: 0.2rem;
+  font-size: @font-2;
+  .title {
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-weight: 600;
+  }
+  .course {
+    .course-left, .course-right {
+      width: 50%;
+      height: 2.5rem;
+      float: left;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

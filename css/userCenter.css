@@ -1,0 +1,356 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+dialog,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-tap-highlight-color: transparent;
+  /*触屏有默认样式，为防止*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  /*border-box兼容手机不通浏览器*/
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+/* ios默认文本框阴影 */
+input[type=text],
+textarea {
+  -webkit-appearance: none;
+}
+/* 低版本安卓文本框层级问题 */
+input:focus {
+  -webkit-user-modify: read-write-plaintext-only;
+}
+ol,
+ul,
+li,
+menu {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html,
+body {
+  width: 100%;
+  line-height: 1;
+}
+html {
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: 100%;
+}
+a,
+button,
+input {
+  outline: 0 none;
+  text-decoration: none;
+}
+img {
+  border: 0 none;
+  -ms-interpolation-mode: bicubic;
+  max-width: 100%;
+}
+.cf:after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  zoom: 1;
+}
+body {
+  font-size: 0.28rem;
+}
+.head {
+  height: 0.88rem;
+  line-height: 0.88rem;
+  background-color: #fa424e;
+  color: white;
+  text-align: center;
+  font-size: 0.36rem;
+  position: relative;
+}
+.head .back {
+  position: absolute;
+  left: 0.1rem;
+  font-size: 0.28rem;
+}
+.wr {
+  height: 4rem;
+  font-size: 0.34rem;
+  text-align: center;
+  color: white;
+}
+.wr img {
+  height: 4.2rem;
+}
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #007aff;
+}
+.banner-title {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  color: white;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+  /* 标准的语法（必须放在最后） */
+}
+@font-face {
+  font-family: 'iconfont';
+  /* project id 465075 */
+  src: url('//at.alicdn.com/t/font_465075_lg5rb9btzao1dcxr.eot');
+  src: url('//at.alicdn.com/t/font_465075_lg5rb9btzao1dcxr.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_465075_lg5rb9btzao1dcxr.woff') format('woff'), url('//at.alicdn.com/t/font_465075_lg5rb9btzao1dcxr.ttf') format('truetype'), url('//at.alicdn.com/t/font_465075_lg5rb9btzao1dcxr.svg#iconfont') format('svg');
+}
+@font-face {
+  font-family: 'iconfontNew';
+  /* project id 520122 */
+  src: url('//at.alicdn.com/t/font_520122_owv1mageklnmi.eot');
+  src: url('//at.alicdn.com/t/font_520122_owv1mageklnmi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_520122_owv1mageklnmi.woff') format('woff'), url('//at.alicdn.com/t/font_520122_owv1mageklnmi.ttf') format('truetype'), url('//at.alicdn.com/t/font_520122_owv1mageklnmi.svg#iconfont') format('svg');
+}
+@font-face {
+  font-family: 'iconfont-others';
+  /* project id 520122 */
+  src: url('//at.alicdn.com/t/font_520122_bpjlt0jwjw7e3ik9.eot');
+  src: url('//at.alicdn.com/t/font_520122_bpjlt0jwjw7e3ik9.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_520122_bpjlt0jwjw7e3ik9.woff') format('woff'), url('//at.alicdn.com/t/font_520122_bpjlt0jwjw7e3ik9.ttf') format('truetype'), url('//at.alicdn.com/t/font_520122_bpjlt0jwjw7e3ik9.svg#iconfont') format('svg');
+}
+@font-face {
+  font-family: 'iconfont-jy';
+  /* project id 520122 */
+  src: url('//at.alicdn.com/t/font_520122_otrg4di3mjp833di.eot');
+  src: url('//at.alicdn.com/t/font_520122_otrg4di3mjp833di.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_520122_otrg4di3mjp833di.woff') format('woff'), url('//at.alicdn.com/t/font_520122_otrg4di3mjp833di.ttf') format('truetype'), url('//at.alicdn.com/t/font_520122_otrg4di3mjp833di.svg#iconfont') format('svg');
+}
+body {
+  background: #f2f2f2;
+}
+.head-user {
+  width: 100%;
+  height: 3.6rem;
+  background-color: #fa424e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head-user .photo {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: white;
+  border-radius: 50%;
+}
+.head-user .number-name {
+  padding: 0.2rem;
+  color: white;
+}
+.info-user {
+  width: 6.6rem;
+  border-radius: 0.09rem;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0.03rem 0.04rem 0.05rem 0rem rgba(175, 172, 172, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -0.3rem;
+  padding: 0.2rem;
+  flex-direction: row;
+  color: #8c8c8c;
+}
+.info-user .my-course {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.info-user .my-course div {
+  margin: 0 auto;
+  padding-bottom: 0.15rem;
+}
+.info-user .my-course .iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  color: #212121;
+  font-size: 0.43rem;
+}
+.info-user .my-order {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.info-user .my-order div {
+  margin: 0 auto;
+  padding-bottom: 0.15rem;
+}
+.info-user .my-order .iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  color: #212121;
+  font-size: 0.43rem;
+}
+.info-user .my-news {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.info-user .my-news div {
+  margin: 0 auto;
+  padding-bottom: 0.15rem;
+}
+.info-user .my-news .iconfontNew {
+  font-family: "iconfontNew" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  color: #212121;
+  font-size: 0.43rem;
+}
+.others {
+  margin-top: 0.4rem;
+  padding: 0 0.8rem;
+  background: white;
+  padding-bottom: 3rem;
+}
+.others ul {
+  border-bottom: 1px solid #cccccc;
+}
+.others ul li {
+  padding: 0.26rem  0;
+}
+.others ul li i {
+  font-family: "iconfont-others" !important;
+  color: #fa424e;
+  font-size: 0.24rem;
+  padding-right: 0.1rem;
+}
+.others ul li .jy {
+  font-family: "iconfont-jy" !important;
+  color: #fa424e;
+  font-size: 0.24rem;
+  padding-right: 0.1rem;
+}
+.others ul li .gt {
+  float: right;
+  color: #8c8c8c;
+}

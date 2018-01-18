@@ -1,0 +1,111 @@
+@import "common-mobile";
+@write: #ccc;
+@font-big-color: #f6f6f6;
+
+/*phonevideo样式*/
+body {
+  background: #f6f6f6;
+}
+
+.wrap{
+  padding:0.24rem 0 0 0.24rem;
+  margin-top: 0.4rem;
+}
+.con{
+  font-size: @font-2;
+  color: #666666;
+  padding-right: 0.5rem;
+  .left{
+    float: left;
+    margin-right: 0.1rem;
+    width: 1rem;
+  }
+  .right{
+    float: right;
+    width: 5.45rem;
+    padding-left: 0.24rem;
+    border-left: 1px dashed #fa424e;
+    padding-bottom: 0.24rem;
+    .title{
+      position: relative;
+      padding-bottom: 0.1rem;
+      .dot{
+        position: absolute;
+        width: 0.2rem;
+        height: 0.2rem;
+        border-radius: 50%;
+        border: 0.01rem dashed #fa424e;
+        left:-0.35rem;
+        .dot1{
+          width: 0.1rem;
+          height: 0.1rem;
+          background: #fa424e;
+          border-radius: 50%;
+          position: absolute;
+          left: 0.04rem;
+          top: 0.034rem;
+        }
+      }
+      .con-des{
+        span{
+          margin-right: 0.1rem;
+        }
+      }
+    }
+    .video{
+      width: 5rem;
+      height: 3rem;
+      border: 1px solid #666666;
+      margin-bottom: 0.1rem;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .count{
+      padding: 0.1rem 0.24rem 0.1rem ;
+      li{
+        float: right;
+        margin-right: 0.1rem;
+      }
+      .shareImg{
+        margin-left: 0.2rem;
+      }
+      .shareImg,.playImg{
+        width: 0.25rem;
+        height: 0.25rem;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+.end{
+  display: flex;
+  width: 2rem;
+  margin: 0.5rem auto;
+  .line1{
+    flex: 1;
+    height: 0.025rem;
+    background: #707070;
+  }
+  .text{
+    flex: 1.7;
+    text-align: center;
+    line-height: 0.04rem;
+  }
+  .line2{
+    flex: 1;
+    height: 0.025rem;
+    background: #707070;
+  }
+}
+
+
+
+
+
+
+

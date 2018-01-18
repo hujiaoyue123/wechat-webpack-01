@@ -1,0 +1,88 @@
+@mainColor: #FA424E;
+.content{
+  background-color: #F2F2F2;
+  .top-menu{
+    @TMH: 0.8rem;
+    height: @TMH;
+    background-color: #FFF;
+    margin-bottom: 0.25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .top-item{
+      display: flex;
+      align-items: center;
+      height: @TMH;
+      color: #8c8c8c;
+    }
+    .choosed{
+      color: @mainColor;
+      border-bottom: 0.1rem solid @mainColor;
+    }
+  }
+  .courses-list{
+    height: 11.75rem;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .courses-item{
+      width: 100vw;
+      @HCI: 3rem;
+      height: @HCI;
+      //background-color: #ffbfa7;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .left{
+        height: 2rem;
+        width: 3rem;
+      }
+      .right{
+        height: 2rem;
+        .c-name{
+          font-size: 0.3rem;
+          line-height: 0.4rem;
+          font-weight: 600;
+        }
+        .c-teacher{
+          font-size: 0.23rem;
+          line-height: 0.4rem;
+          font-weight: 600;
+        }
+        .c-btn{
+          font-size: 0.1rem;
+          padding: 0.1rem;
+          margin-top: 0.23rem;
+          margin-bottom: 0.13rem;
+          border: 0;
+          background-color: @mainColor;
+          color: #FFF;
+        }
+        .c-bottom{
+          width: 2.8rem;
+          .people{
+            i{
+              font-size: 0.2rem;
+            }
+            float: left;
+            color: @mainColor;
+            .c-count{
+              font-size: 0.16rem;
+            }
+          }
+          .hx{
+            float: right;
+            font-size: 0.1rem;
+            color: #A7A7A7;
+          }
+        }
+      }
+    }
+    .bar{
+      border-bottom: 1px solid #DCDCDC;
+      width: 85vw;
+      height: 1px;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.content {
+  background-color: #F2F2F2;
+}
+.content .video-room {
+  height: 4rem;
+  background-color: #010101;
+}
+.content .menu {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  background-color: #fff;
+  color: #8C8C8C;
+}
+.content .menu .title {
+  float: left;
+  width: 40%;
+  padding-left: 0.3rem;
+}
+.content .menu .config {
+  text-align: right;
+  float: right;
+  width: 40%;
+  padding-right: 0.3rem;
+}
+.content .list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.1rem;
+  background-color: #fff;
+}
+.content .list-container .list-item {
+  width: 100vw;
+  height: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.content .list-container .list-item .time {
+  color: #8C8C8C;
+}
+.content .list-container .bar {
+  border-bottom: 1px solid #DCDCDC;
+  width: 85vw;
+  height: 1px;
+}

@@ -1,0 +1,309 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+dialog,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-tap-highlight-color: transparent;
+  /*触屏有默认样式，为防止*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  /*border-box兼容手机不通浏览器*/
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+/* ios默认文本框阴影 */
+input[type=text],
+textarea {
+  -webkit-appearance: none;
+}
+/* 低版本安卓文本框层级问题 */
+input:focus {
+  -webkit-user-modify: read-write-plaintext-only;
+}
+ol,
+ul,
+li,
+menu {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html,
+body {
+  width: 100%;
+  line-height: 1;
+}
+html {
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: 100%;
+}
+a,
+button,
+input {
+  outline: 0 none;
+  text-decoration: none;
+}
+img {
+  border: 0 none;
+  -ms-interpolation-mode: bicubic;
+  max-width: 100%;
+}
+.cf:after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  zoom: 1;
+}
+body {
+  font-size: 0.28rem;
+}
+.head {
+  height: 0.88rem;
+  line-height: 0.88rem;
+  background-color: #fa424e;
+  color: white;
+  text-align: center;
+  font-size: 0.36rem;
+  position: relative;
+}
+.head .back {
+  position: absolute;
+  left: 0.1rem;
+  font-size: 0.28rem;
+}
+.wr {
+  height: 4rem;
+  font-size: 0.34rem;
+  text-align: center;
+  color: white;
+}
+.wr img {
+  height: 4.2rem;
+}
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #007aff;
+}
+.banner-title {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  color: white;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+  /* 标准的语法（必须放在最后） */
+}
+.wrap {
+  font-size: 0.28rem;
+  padding: 0.4rem;
+}
+.wrap .course {
+  color: #666666;
+  padding-bottom: 0.24rem;
+}
+.wrap .course .title {
+  position: relative;
+  padding: 0.1rem;
+}
+.wrap .course .title .con-des {
+  line-height: 0.4rem;
+}
+.wrap .course .title .con-des span {
+  margin-right: 0.1rem;
+}
+.wrap .course .video {
+  width: 6.6rem;
+  height: 3.5rem;
+  border: 0.01rem solid #212121;
+  background: #212121;
+}
+.wrap .course .count {
+  padding: 0.1rem 0.24rem 0.1rem ;
+}
+.wrap .course .count li {
+  float: right;
+  margin-right: 0.1rem;
+}
+.wrap .course .count .shareImg {
+  margin-left: 0.2rem;
+}
+.wrap .course .count .shareImg,
+.wrap .course .count .playImg {
+  width: 0.25rem;
+  height: 0.25rem;
+}
+.wrap .course .count .shareImg img,
+.wrap .course .count .playImg img {
+  width: 100%;
+  height: 100%;
+}
+.wrap .course .des-c {
+  line-height: 0.7rem;
+}
+.wrap .related {
+  margin-top: 0.7rem;
+}
+.wrap .related .title1 {
+  color: #666666;
+  display: flex;
+  width: 4rem;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+}
+.wrap .related .title1 .line1 {
+  flex: 1;
+  height: 0.015rem;
+  background: #707070;
+}
+.wrap .related .title1 .text {
+  flex: 1;
+  text-align: center;
+  line-height: 0.04rem;
+}
+.wrap .related .title1 .line2 {
+  flex: 1;
+  height: 0.015rem;
+  background: #707070;
+}
+.wrap .related .course-v .course-des {
+  float: left;
+  width: 48%;
+  height: 2rem;
+  margin-right: 0.13rem;
+  margin-bottom: 0.2rem;
+}
+.wrap .related .course-v .course-des .video {
+  width: 100%;
+  height: 80%;
+  background: #666666;
+}
+.wrap .related .course-v .course-des .video img {
+  width: 100%;
+  height: 100%;
+}
+.wrap .related .course-v .course-des .v-title {
+  width: 100%;
+  height: 30%;
+  padding: 4%;
+  color: #666666;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

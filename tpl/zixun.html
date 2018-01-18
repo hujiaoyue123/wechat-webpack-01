@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta name="viewport" content="initial-scale=1, user-scalable=0, minimal-ui" charset="UTF-8">
+    <title>固定布局，加载顶部、底部</title>
+    <link rel="stylesheet" href="../css/dropload.css">
+</head>
+<body>
+<div class="outer">
+    <div class="header">
+        <h1>资讯</h1>
+        <a class="btn lock" href="home.html">&lt;&lt;返回</a>
+        <div class="footer" style="position:absolute;left:0;top:0;background-color:#fff;">
+            <a href=""></a>
+            <a href="#"></a>
+        </div>
+    </div>
+    <div class="head-slide">
+        <div class="title-list">
+            <ul>
+                <li data-index="1" class="redColor">股市快讯</li>
+                <li data-index="2">VIP</li>
+                <li data-index="3">至尊</li>
+            </ul>
+        </div>
+        <div class="navigation">
+            <ul id="navList">
+                <div class="list list-1"></div>
+                <div class="list list-2" style="display: none;"></div>
+                <div class="list list-3" style="display: none;"></div>
+            </ul>
+        </div>
+    </div>
+    <div class="inner">
+        <div class="container">
+            <ul id="information">
+
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="load-info" data-info="904" style="display: none"></div>
+</body>
+</html>

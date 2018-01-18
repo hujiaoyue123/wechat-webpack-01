@@ -1,0 +1,161 @@
+.outer{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction:column;
+  -webkit-box-orient:vertical;
+  box-orient:vertical;
+  -webkit-flex-direction:column;
+  flex-direction:column;
+}
+.head-slide {
+  position: relative;
+  .title-list {
+    ul {
+      li {
+        display: inline-block;
+        margin: 0.41rem 0.7rem;
+        font-size: 0.3rem;
+        font-weight: bold;
+        letter-spacing: 0.2em;
+      }
+      .redColor {
+        color: #ff0000;
+      }
+    }
+  }
+  .navigation {
+    padding: .1rem .1rem;
+    width: 100%;
+    overflow: hidden;
+    ul {
+      margin-right: -.5rem;
+      border-top: .01rem solid #ccc;
+      border-bottom: .01rem solid #ccc;
+      padding: .2rem .2rem;
+      .list-group-item {
+        display: inline-block;
+        color: #555;
+        height: .62rem;
+        line-height: .62rem;
+        margin: 0 .18rem;
+        font-size: 0.26rem;
+        width: 20%;
+      }
+      .redColor {
+        color: #f00;
+      }
+    }
+  }
+}
+
+.header{
+  position: relative;
+  height: 0.88rem;
+  line-height: 0.88rem;
+  background-color: #fa424e;
+  color: #ffffff;
+  h1 {
+    text-align: center;
+    font-size: 0.36rem;
+    font-weight: normal;
+  }
+  .btn{
+    position: absolute;
+    left: 0.1rem;
+    font-size: 0.28rem;
+    top: 0;
+    color: #ffffff;
+  }
+  .btn:active{
+    color: #fff;
+  }
+}
+.inner{
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #fff;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  .container {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction:column;
+    -webkit-box-orient:vertical;
+    box-orient:vertical;
+    -webkit-flex-direction:column;
+    flex-direction:column;
+    ul {
+      min-height: 14rem;
+      padding-bottom: 1rem;
+      .info-news {
+        width: 7.5rem;
+        .inforBox {
+          border-bottom: 0.13rem solid #eee;
+          padding: .2rem .3rem;
+          .inforTitle {
+            font-size: .3rem;
+            padding: .2rem 0;
+            line-height: 0.5rem;
+            color: #222;
+          }
+          .inforTextview {
+            font-style: normal;
+            font-size: .23rem;
+            display: block;
+            height: 2.5rem;
+            line-height: .5rem;
+            color: #888;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 5;
+            text-indent: 2em;
+          }
+          .time {
+            text-align: center;
+            font-size: .18rem;
+            padding: .2rem 0;
+            color: #888;
+          }
+        }
+      }
+    }
+  }
+}
+
+.opacity{
+  -webkit-animation: opacity 0.3s linear;
+  animation: opacity 0.3s linear;
+}
+@-webkit-keyframes opacity {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@keyframes opacity {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
